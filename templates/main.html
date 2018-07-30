@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title> EX </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css.css">
+    <meta name="keywords" content="tecnologia, imagens">
+    <meta name="author" content="Gustavo Dornelas">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  </head>
+<!--CONTEUDO-->
+  <body>
+  <div class="navbar" id="comeceja">
+    <nav class="grey darken-3 z-depth-3">
+        <div class="nav-wrapper container">
+          <a href="#bemvindo" class="brand-logo left">EX</a>
+          <ul class="right">
+            <li><a href="#bemvindo">Bem vindo</a></li>
+            <li><a href="#comeceja">Comece Já!</a></li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  <!--SLIDES-->
+        <div id="canvas" class="slides col s12">
+            <img class="slide" src="/static/images/cars.jpg">
+            <img class="slide" src="/static/images/oscar_selfie.jpg">
+            <img class="slide" src="/static/images/dining_room.jpg">
+            <img class="slide quatro" src="/static/images/hienas.jpg">
+        </div>
+        <div class="slides col s12">
+            <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+<!--BEM VINDO-->
+    <div class="row">
+      <div class="col s12 introducao" id="bemvindo">
+          <h1> BEM VINDO! </h1>
+          <h2> Com a ferramenta a seguir, você poderá destacar nas imagens os elementos que achar mais relevante e iremos armazenar as informações para você!</h2>
+          <a href="#comeceja" class="waves-effect waves-light btn-large">COMECE JÁ!</a>
+      </div>
+<!--COMO FUNCIONA-->
+      <div class="col 12 comofunciona">
+        <h2> COMO FUNCIONA? </h2>
+        <h3> Clique com o botão direito do mouse e arraste sobre a imagem para criar uma área retângular. Em seguida, basta clicar novamente com o botão direito do mouse para gravar a seleção. Você pode fazer isso quantas vezes quiser. As marcações ficarão armazenadas para você!</h3>
+      </div>
+
+    </div>
+  </body>
+<!--RODAPE-->
+    <footer>
+      <div class="col s12 rodape">
+          <h3> Todos os Direitos Reservados </h3>
+          <h3>Desenvolvido por Gustavo Dornelas @2018 </h3>
+      </div>
+    </footer>
+    <!--SCRIPT-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <script src="/static/slideshow.js"></script>
+  <script src="/static/draw.js"></script>
+</html>

@@ -1,0 +1,150 @@
+*{
+margin: 0;
+padding: 0;
+border: none;
+outline: none;
+font-weight: 400;
+box-sizing: border-box;
+font-family: 'Oxygen', sans-serif;
+}
+body {background-color: #ffedd2;}
+a {text-decoration: none;}
+ul {list-style: none;}
+/*MENU*/
+.introducao {
+    background-color: #b8e8da;
+    position: center;
+    text-align: center;
+  }
+.introducao h1 {
+    padding: 0% 15% 0% 15%;
+    font-family: 'Bevan', cursive;
+    font-size: 3.5em;
+    color: #00bfa5;
+}
+.introducao h2 {
+  padding: 0% 15% 2% 15%;
+  font-size: 2em;
+  line-height: 1.5em;
+  color: #00bfa5;
+}
+.introducao a {
+  margin-bottom: 3%;
+  background-color: #00bfa5;
+  font-weight: 700;
+}
+.comofunciona {
+  background-color: #ffedd2;
+}
+.comofunciona h2 {
+  color: #9e9e9e;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+  font-family: 'Bevan', cursive;
+}
+.comofunciona h3 {
+  color: #9e9e9e;
+  font-size: 2em;
+  line-height: 1.5em;
+  padding: 0% 15% 2% 15%;
+  text-align: center;
+}
+.slides {
+ background-color: #bdbdbd;
+ text-align: center;
+}
+.slides img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 5px;
+}
+.quatro {
+  width: 100%;
+}
+.display-left {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.display-left:hover {
+  opacity: 0.6;
+}
+.display-right {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.display-right:hover {
+  opacity: 0.6;
+}
+.rodape {
+  background-color: #424242;
+  margin: 0%;
+}
+.rodape h3 {
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  line-height: 1em;
+  padding: 2% 0%;
+  margin: 0%;
+}
+
+/*DISPOSITIVOS*/
+
+@media screen and (max-width:480px) {
+  .right  {
+    display: none;
+  }
+  .introducao h2 {
+    font-size: 1.8em;
+    line-height: 1.2em;
+  }
+  .introducao a {
+    margin-bottom: 10%;
+  }
+  .comofunciona h3 {
+    font-size: 1.8em;
+    line-height: 1.2em;
+  }
+}
+
+/*TABLETS*/
+@media screen and (max-width:768px) {
+  .introducao h1 {
+    font-size: 3em;
+  }
+  .introducao h2 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+  }
+  .introducao a {
+    margin-bottom: 10%;
+  }
+  .comofunciona h2 {
+    font-size: 2em;
+  }
+  .comofunciona h3 {
+    font-size: 1.6em;
+    line-height: 1.2em;
+  }
+}
+
+/*CANVAS*/
+
+#canvas {
+}
+
+.mark {
+  border: 2px solid #80c635;
+  position: absolute;
+}
